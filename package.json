@@ -5,7 +5,8 @@
   "main": "server.js",
   "license": "MIT",
   "scripts": {
-    "start": "nodemon server"
+    "start": "nodemon server",
+    "build": "babel src -d lib"
   },
   "devDependencies": {
     "nodemon": "^2.0.22"
